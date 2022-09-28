@@ -19,6 +19,7 @@ html,body{
       justify-content: space-between;
       background-color: transparent;
       padding: 0 40px;
+      z-index: 9999;
 
 }
 #leftnav{
@@ -57,13 +58,73 @@ html,body{
 }
 #firstpage{
       width: 100vw;
-      height: 100vh;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
 }
 #fleft{
       width: 50vw;
       height: 100vh;
 }
+.leftf{
+      width:45vw ;
+      height: 60vh;
+      /* background-color: aqua; */
+      position: absolute;
+      top: 15vh;
+      left: 3vw;
+}
+#fleft h1{
+      font-size: 4vw;
+      font-family: Gilroy;
+}
+#fleft h1 span{
+      color: #289e8a;
+      font-family: Gilroy;
+
+}
+.topnotch{
+      width: 13.5vw;
+      height: 5vh;
+      /* background-color: aqua; */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 20PX;
+      margin-top: 20px;
+      font-family: Gilroy;
+      font-size: 1.3vw;
+}
+.gola{
+      width: 2vw;
+      height: 4vh;
+      background-color: #289e8a;
+      border-radius: 200%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.gola i{
+      color: white;
+}
+.leftf button{
+      width: 15vw;
+      height: 9vh;
+      background-color: #289e8a;
+      color: white;
+      font-family: Gilroy;
+      border: none;
+      border-radius: 10px;
+      margin-top: 5vh;
+      /* margin-left: 3vw; */
+}
 #fright{
       width: 50vw;
-      height: 100vh;
+      height: 100%;
+}
+#fright img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
 }
